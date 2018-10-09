@@ -1,0 +1,186 @@
+body {
+	font-size: 16px;
+}
+
+p {
+	font-size: 100%
+}
+
+h1 {
+	font-size: 250%;
+}
+
+
+#app-store {
+	padding-top: 10%;
+	text-align: center;
+}
+
+.bg {
+  background-image: url(../images/bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bg-custom {
+	background-color: rgba(22, 19 ,1, 0.92);	
+}
+
+.bg-feature {
+	background-color: white;
+
+}
+
+.bg-contact {
+	background-color: rgb(247,247,247);
+	
+}
+
+
+#content {
+
+	text-align: center;
+	padding-top: 38%;
+	
+}
+
+.contact-image {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.email {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 20px;
+	max-width: 95%;
+}
+
+.feature-img-1 {
+	display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 30%;
+max-height: auto;
+padding-top: 10%;
+padding-bottom: 10%;
+
+}
+
+.feature-img-2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	max-height: auto;
+	padding-top: 10%;
+	padding-bottom: 10%;
+
+}
+
+
+
+.footer {
+	background-color: rgba(22, 19 ,1, 1);
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-family: "Lato-Light";
+/* 	font-size: 1rem; */
+}
+
+.header {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+hr {
+	max-width: 95%;
+	border-top : 1.5px solid black;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.mockup {
+	display: block;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+max-height: auto%;
+padding-top: 20%;
+padding-bottom: 25%;
+
+}
+
+
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+	 border: 1px solid white;
+}
+
+
+.nav-custom {
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 200;
+	font-size: 80%;
+
+}
+
+.nav-custom:hover {
+	color: yellow
+}
+
+.paragraph-frontPage {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: 400;
+
+}
+
+.paragraph-contact {
+	padding-top: 5%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.paragraph-feature-header {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+.paragraph-feature-body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	padding-bottom: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+	
+}
+
+#privacy {
+
+	text-align: center;
+	padding-top: 20vh;
+	
+}
+
+
+
+
+
+
+
