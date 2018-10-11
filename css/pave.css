@@ -198,9 +198,25 @@ padding-bottom: 18%;
 
 }
 
-.nav-custom:hover {
-	color: yellow
+@media (pointer:fine) {
+    /* Primary Input is a fine pointer device such as a mouse or stylus */
+    
+    .nav-custom:hover {
+	cursor: pointer;
+	color: yellow;
+	}
 }
+
+@media (hover:none) {
+    /* Primary Input doesn't respond to hover at all, even partially (ie: there is no pointing device) */
+    .nav-custom:hover {
+	cursor: pointer;
+	color: white;
+	}
+    
+    
+}
+
 
 .paragraph-frontPage {
 	font-family: 'Overpass', sans-serif;
